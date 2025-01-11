@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "@bakemono-san/utilities",
+  "version": "1.0.0",
+  "description": "this is a lightweight and modular library providing a comprehensive set of utility functions to streamline development workflows. It is designed to simplify common tasks in software projects, including string manipulation, array operations, date handling, number processing, and object management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bakemono-san/utilities.git"
+  },
+  "keywords": [
+    "utils",
+    "string",
+    "array",
+    "object",
+    "text-processing",
+    "text"
+  ],
+  "author": "Bakemono-san",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bakemono-san/utilities/issues"
+  },
+  "homepage": "https://github.com/Bakemono-san/utilities#readme"
+}
