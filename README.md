@@ -45,6 +45,7 @@ console.log(capitalize('hello world')); // Output: Hello world
 ```
 
 ## API Documentation
+
 ### String Utilities
 
 #### `capitalize(str)`
@@ -56,12 +57,15 @@ capitalize('hello'); // Returns: 'Hello'
 ```
 
 **Parameters:**
+
 - `str` (string): The string to capitalize.
 
 **Returns:**
+
 - (string): The capitalized string.
 
 **Throws:**
+
 - `TypeError`: If the input is not a string.
 
 #### `toSnakeCase(str)`
@@ -73,12 +77,15 @@ toSnakeCase('Hello World'); // Returns: 'hello_world'
 ```
 
 **Parameters:**
+
 - `str` (string): The string to convert.
 
 **Returns:**
+
 - (string): The snake_cased string.
 
 **Throws:**
+
 - `TypeError`: If the input is not a string.
 
 #### `reverseString(str)`
@@ -90,12 +97,15 @@ reverseString('hello'); // Returns: 'olleh'
 ```
 
 **Parameters:**
+
 - `str` (string): The string to reverse.
 
 **Returns:**
+
 - (string): The reversed string.
 
 **Throws:**
+
 - `TypeError`: If the input is not a string.
 
 #### `isPalindrome(str)`
@@ -107,12 +117,15 @@ isPalindrome('racecar'); // Returns: true
 ```
 
 **Parameters:**
+
 - `str` (string): The string to check.
 
 **Returns:**
+
 - (boolean): True if the string is a palindrome, false otherwise.
 
 **Throws:**
+
 - `TypeError`: If the input is not a string.
 
 ### Array Utilities
@@ -127,12 +140,15 @@ removeDuplicates(['a', 'a', 'b']); // Returns: ['a', 'b']
 ```
 
 **Parameters:**
+
 - `arr` (Array): The array from which to remove duplicates.
 
 **Returns:**
+
 - (Array): A new array with duplicates removed.
 
 **Throws:**
+
 - `TypeError`: If the input is not an array.
 
 #### `flattenArray(arr)`
@@ -145,12 +161,15 @@ flattenArray(['a', ['b', ['c']]]); // Returns: ['a', 'b', 'c']
 ```
 
 **Parameters:**
+
 - `arr` (Array): The array to flatten.
 
 **Returns:**
+
 - (Array): A new flattened array.
 
 **Throws:**
+
 - `TypeError`: If the input is not an array.
 
 #### `findMax(arr)`
@@ -163,12 +182,15 @@ findMax([10, 5, 8, 3]); // Returns: 10
 ```
 
 **Parameters:**
+
 - `arr` (Array): The array to search for the maximum value.
 
 **Returns:**
+
 - (number): The maximum value in the array.
 
 **Throws:**
+
 - `TypeError`: If the input is not an array.
 
 #### `chunkArray(arr, size)`
@@ -181,13 +203,16 @@ chunkArray(['a', 'b', 'c', 'd'], 3); // Returns: [['a', 'b', 'c'], ['d']]
 ```
 
 **Parameters:**
+
 - `arr` (Array): The array to split into chunks.
 - `size` (number): The size of each chunk.
 
 **Returns:**
+
 - (Array): A new array with the original array split into chunks.
 
 **Throws:**
+
 - `TypeError`: If the first parameter is not an array or the second parameter is not a number.
 
 #### `findMin(arr)`
@@ -200,12 +225,15 @@ findMin([10, 5, 8, 3]); // Returns: 3
 ```
 
 **Parameters:**
+
 - `arr` (Array): The array to search for the minimum value.
 
 **Returns:**
+
 - (number): The minimum value in the array.
 
 **Throws:**
+
 - `TypeError`: If the input is not an array.
 
 #### `sumArray(arr)`
@@ -218,12 +246,15 @@ sumArray([5, 5, 5]); // Returns: 15
 ```
 
 **Parameters:**
+
 - `arr` (Array): The array to sum.
 
 **Returns:**
+
 - (number): The sum of all values in the array.
 
 **Throws:**
+
 - `TypeError`: If the input is not an array.
 
 #### `averageArray(arr)`
@@ -236,12 +267,15 @@ averageArray([5, 5, 5, 5]); // Returns: 5
 ```
 
 **Parameters:**
+
 - `arr` (Array): The array to calculate the average.
 
 **Returns:**
+
 - (number): The average of all values in the array.
 
 **Throws:**
+
 - `TypeError`: If the input is not an array.
 
 #### `uniqueArray(arr)`
@@ -254,12 +288,15 @@ uniqueArray(['a', 'a', 'b']); // Returns: ['a', 'b']
 ```
 
 **Parameters:**
+
 - `arr` (Array): The array to filter for unique values.
 
 **Returns:**
+
 - (Array): A new array with only unique values.
 
 **Throws:**
+
 - `TypeError`: If the input is not an array.
 
 #### `arrayDifference(arr1, arr2)`
@@ -272,13 +309,16 @@ arrayDifference(['a', 'b'], ['b', 'c']); // Returns: ['a']
 ```
 
 **Parameters:**
+
 - `arr1` (Array): The first array.
 - `arr2` (Array): The second array.
 
 **Returns:**
+
 - (Array): A new array with elements from the first array that are not in the second array.
 
 **Throws:**
+
 - `TypeError`: If either input is not an array.
 
 ### Date Utilities
