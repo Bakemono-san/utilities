@@ -2,6 +2,22 @@
 
 A collection of reusable utility functions for JavaScript projects. These functions simplify common programming tasks like string manipulation, array operations, date handling, number calculations, and object processing. Designed for efficiency and reusability.
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Features](#features)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+  - [String Utilities](#string-utilities)
+  - [Array Utilities](#array-utilities)
+  - [Date Utilities](#date-utilities)
+- [Development](#development)
+  - [Cloning the Repository](#cloning-the-repository)
+  - [Running Tests](#running-tests)
+  - [Testing Locally](#testing-locally)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Installation
 
 Install the package using npm:
