@@ -88,3 +88,23 @@ export const getYear = (date) => {
     }
     return d.getFullYear();
 };
+/**
+ * Adds a specified number of days to a given date.
+ *
+ * @param {string|Date} date - The starting date.
+ * @param {number} days - The number of days to add (can be negative to subtract).
+ * @returns {Date} A new Date object with the days added.
+ * @throws {TypeError} If the provided date is invalid or days is not a number.
+ */
+export const addDays = (date, days) => {
+    const d = new Date(date);
+    if (isNaN(d)) {
+        throw new TypeError('Invalid date');
+    }
+    if (typeof days !== 'number' || isNaN(days)) {
+        throw new TypeError('Days must be a valid number');
+    }
+    const result = new Date(d);
+    result.setDate(result.getDate() + days);
+    return result;
+};
