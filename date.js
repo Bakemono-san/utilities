@@ -108,3 +108,16 @@ export const addDays = (date, days) => {
     result.setDate(result.getDate() + days);
     return result;
 };
+/**
+ * Checks if a given year is a leap year.
+ *
+ * @param {number} year - The year to check.
+ * @returns {boolean} Returns true if the year is a leap year, otherwise false.
+ * @throws {TypeError} If the provided argument is not a valid number.
+ */
+export const isLeapYear = (year) => {
+    if (typeof year !== 'number' || isNaN(year)) {
+        throw new TypeError('Year must be a valid number');
+    }
+    return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+};
