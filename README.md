@@ -452,24 +452,36 @@ npm link @bakemono-san/utilities
 
 ## Contributing
 
-Contributions are welcome! This project is participating in **Hacktoberfest 2025**, so it's a great time to get involved. Please read our [Hacktoberfest section](#-hacktoberfest-2025) above for specific guidance on contributing during the event.
+We welcome contributions from developers of all skill levels! This project is participating in **Hacktoberfest 2025**, making it a perfect time to get involved in open source.
 
-### General Contribution Guidelines
+### Quick Start for Contributors
 
-1. Please open an issue first to discuss any major changes
-2. Follow the existing code style and patterns
-3. Add tests for any new functionality
-4. Update documentation as needed
-5. Make sure all tests pass before submitting a PR
+1. **Fork** this repository
+2. **Clone** your fork locally
+3. **Create** a new branch for your changes
+4. **Make** your improvements following our guidelines
+5. **Submit** a pull request
 
-### Code Style
+### Detailed Guidelines
 
-- Use ES6+ features where appropriate
-- Follow JSDoc conventions for function documentation
-- Include proper error handling with descriptive error messages
-- Write clear, descriptive variable and function names
+For comprehensive contribution guidelines, please read our **[CONTRIBUTING.md](./CONTRIBUTING.md)** file, which covers:
 
-We appreciate all contributions, whether they're bug reports, feature requests, documentation improvements, or code contributions!
+- 🎯 **Code style standards** and best practices
+- 📝 **Documentation requirements** for new functions
+- 🧪 **Testing guidelines** and validation steps
+- 🔄 **Pull request process** and commit message format
+- 🐛 **Issue reporting** and feature request guidelines
+- 🎃 **Hacktoberfest-specific** contribution guidance
+
+### What We're Looking For
+
+- **New utility functions** following existing patterns
+- **Bug fixes** with clear test cases
+- **Documentation improvements** and examples
+- **Performance optimizations** and code quality enhancements
+- **Test coverage** improvements
+
+Whether you're fixing a typo or adding a major feature, all meaningful contributions are valued and appreciated!
 
 ## License
 
