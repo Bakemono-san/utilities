@@ -1,9 +1,38 @@
 # @bakemono-san/utilities
 
+[![Hacktoberfest](https://img.shields.io/badge/hacktoberfest-2025-blueviolet.svg)](https://hacktoberfest.digitalocean.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
 A collection of reusable utility functions for JavaScript projects. These functions simplify common programming tasks like string manipulation, array operations, date handling, number calculations, and object processing. Designed for efficiency and reusability.
+
+## 🎃 Hacktoberfest 2025
+
+This repository is participating in **Hacktoberfest 2025**! We welcome contributions from developers of all skill levels. Whether you're a beginner looking to make your first open source contribution or an experienced developer wanting to help improve this utility library, there are opportunities for everyone.
+
+### How to Contribute for Hacktoberfest
+
+1. **Fork** this repository
+2. **Clone** your fork to your local machine
+3. **Create** a new branch for your feature or bug fix
+4. **Make** your changes and test them thoroughly
+5. **Commit** your changes with a descriptive commit message
+6. **Push** to your fork and **submit** a pull request
+
+### Contribution Ideas
+
+- 🐛 **Bug fixes**: Help us identify and fix bugs
+- ✨ **New utility functions**: Add useful functions that follow our existing patterns
+- 📚 **Documentation improvements**: Enhance code comments, README, or examples
+- 🧪 **Tests**: Add or improve test coverage
+- 🎨 **Code quality**: Refactor code for better readability or performance
+- 📦 **Build improvements**: Optimize build process or dependencies
+
+All meaningful contributions will be considered for Hacktoberfest! Please make sure to follow our contribution guidelines and maintain the existing code style.
 
 ## Table of Contents
 
+- [🎃 Hacktoberfest 2025](#-hacktoberfest-2025)
 - [Installation](#installation)
 - [Features](#features)
 - [Usage](#usage)
@@ -423,7 +452,24 @@ npm link @bakemono-san/utilities
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for any changes or suggestions.
+Contributions are welcome! This project is participating in **Hacktoberfest 2025**, so it's a great time to get involved. Please read our [Hacktoberfest section](#-hacktoberfest-2025) above for specific guidance on contributing during the event.
+
+### General Contribution Guidelines
+
+1. Please open an issue first to discuss any major changes
+2. Follow the existing code style and patterns
+3. Add tests for any new functionality
+4. Update documentation as needed
+5. Make sure all tests pass before submitting a PR
+
+### Code Style
+
+- Use ES6+ features where appropriate
+- Follow JSDoc conventions for function documentation
+- Include proper error handling with descriptive error messages
+- Write clear, descriptive variable and function names
+
+We appreciate all contributions, whether they're bug reports, feature requests, documentation improvements, or code contributions!
 
 ## License
 
