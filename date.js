@@ -121,3 +121,21 @@ export const isLeapYear = (year) => {
     }
     return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
 };
+/**
+ * Gets the number of days in a given month and year.
+ *
+ * @param {number} month - The month (1-12).
+ * @param {number} year - The year.
+ * @returns {number} The number of days in the specified month.
+ * @throws {TypeError} If the provided arguments are not valid numbers.
+ * @throws {RangeError} If the month is not between 1 and 12.
+ */
+export const getDaysInMonth = (month, year) => {
+    if (typeof month !== 'number' || typeof year !== 'number' || isNaN(month) || isNaN(year)) {
+        throw new TypeError('Month and year must be valid numbers');
+    }
+    if (month < 1 || month > 12) {
+        throw new RangeError('Month must be between 1 and 12');
+    }
+    return new Date(year, month, 0).getDate();
+};
